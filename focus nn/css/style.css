@@ -1,0 +1,189 @@
+/*========================= main section============================== */
+.main{
+    /* background-color: #111521 !important; */
+   
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(36, 6, 18, 0.9)), url(../images/B7.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: 100%;
+    padding: 120px 20px;
+}
+.heading{
+    padding: 20px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.heading>h1{
+    width: 100%;
+    margin-left:50px  ;
+    color: #dfdfdf;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+
+
+
+/*========================== contant start ==============================*/
+
+.main-heading{
+    margin-top: 100px;
+}
+.heading1{
+    margin-top: 50px;
+}
+.heading1>h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family:sans-serif Myriad-pro;
+    color: #0f1923;
+}
+.para{
+    margin: 40px 40px 0 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+
+/* ==============================Service============================== */
+.Service{
+    margin: 50px 10px;
+    padding: 100px 20px 0px 100px;
+    transition: .5s;
+}
+.Service h1{
+    margin-left: 70px;
+    color: #ff4655;
+    font-weight: 700;
+    font-size: 60px;
+    font-family:sans-serif Myriad-pro;
+    
+}
+
+
+
+/* ============================================product-Images================================== */
+.p-Images{
+    padding: 70px; 
+    
+    width: 100%;
+}
+.p-Images>img{
+    width: 100%;
+    box-shadow:20px 20px 60px 25px rgb(199, 199, 199,.1); 
+    cursor: pointer;
+    transition: all .6s;
+   
+}
+.p-Images>img:hover{
+    transform: scale(1.3);
+}
+.product-para{
+    font-size:17px;
+    margin-top: 15px;
+}
+.product-detail{
+    padding: 10px 50px 50px 120px;
+    /* background: url(../images/g1.gif); */
+  
+    
+}
+.product-heading{
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #0f1923;
+}
+
+
+
+
+
+
+/* ==================================================media query ==============================*/
+
+
+@media screen and (max-width:990px) {
+    .heading>h1{
+        font-size: 60px;
+    }    
+        
+    .heading1>h1{
+        font-size: 45px;
+        
+    }
+    
+    .para{
+        margin: 40px 40px;
+        font-size: 20px;
+    }
+    .Service{
+        margin: 40px 10px;
+        padding: 50px;
+    }
+    .Service h1{
+        margin-left: 40px;
+        font-size: 50px;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width:500px) {
+    .heading>h1{
+        font-size: 25px;
+        margin: auto; 
+        text-align: center;
+    }  
+        
+    .heading1>h1{
+        font-size: 25px;
+       
+        
+    }
+    .para{
+        margin: 40px 0px 40px 10px;
+        font-size: 16px;
+    }
+    .Service{
+        margin: 40px 0px;
+        padding: 20px;
+    }
+    .Service h1{
+        margin-left: 5px;
+        font-size: 30px;
+        
+    }
+    .p-Images{
+        padding: 50px !important ;
+    }
+    .product-detail{
+      padding: 5px !important;
+        
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(248, 243, 237);
+    
+}

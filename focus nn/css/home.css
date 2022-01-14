@@ -1,0 +1,213 @@
+/*===================================== Home-main=================================== */
+
+.home-main{
+    width: 100% !important; 
+    padding: 0 !important;
+
+}
+.home-main img{
+    width: 100%;
+}
+.home{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/*======================home-heading ===================================*/
+
+.home-heading{
+    padding: 70px;
+}
+.heading h1{
+    font-size: 65px;
+    color:#ff4655;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.paragraph{
+    margin-top:20px;
+    font-size: 20px;
+}
+
+
+
+/*========================== carousel======================= */
+.Home-Pic{
+    margin-bottom: 150px;
+    /* max-height: 600px; */
+    /* padding: 50px; */
+    max-width: 850px;
+}
+/* .Home-image{
+    height: 100%;
+} */
+.Home-image img{
+    height: 400px !important;
+}
+
+
+  /* ==================================home-main-heading======================= */
+
+  .home-main-heading{
+      background-color: #ece8e1;
+      width: 100%;
+  }
+  .home-main-heading .heading1{
+      margin-left: auto;
+  }
+  .home-main-heading .heading1>h1{
+      padding-left: 20px;
+      padding-top: 30px;
+      font-size: 50px;
+      font-weight: 900;
+      color: #0f1923;
+      text-transform: uppercase
+  }
+
+
+
+.p-Images{
+    padding: 70px; 
+}
+.p-Images img{
+    width: 100%;
+    cursor: pointer;
+    transition: all .6s;
+   
+}
+.p-Images img:hover{
+    width: 120%;
+}
+.product-para{
+    font-size:17px;
+    margin-top: 25px;
+}
+
+.product-heading{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f1923;
+}
+.product-heading-h2{
+    margin-top: 100px;
+    font-size: 70px;
+    font-weight: 900;
+    color: #0f1923;
+}
+.heading2{
+    background:url(./images/mmm.png);
+    
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detail2,.detail2>h2,.detail2>h1,.detail2>p{
+    color: #2e2e2e;
+}
+.image2{
+    margin-top: 100px;
+}
+
+
+
+
+
+/* ==================================================media query ==============================*/
+
+
+@media screen and (max-width:990px) {
+
+    .home-heading{
+        margin-top:30px;
+        padding: 10px;
+    }
+    .heading h1{
+        font-size: 30px;
+       
+    }
+   
+      .home-main-heading .heading1>h1{
+    
+        font-size: 23px;
+        padding-left: 5px;
+          padding-top: 30px;
+    }
+    .product-btn{
+        font-size: 18px;
+    }
+    .product-heading-h2{
+        font-size: 55px;
+    }
+    
+    /* .Home-image img{
+        height: 300px !important;
+    } */
+    .Home-Pic{
+        margin-bottom: 60px;
+        /* height: 350px; */
+        /* padding: 50px; */
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    
+    
+.home-heading{
+    margin-top:30px;
+    padding: 10px;
+}
+.heading h1{
+    font-size: 20px;
+   
+}
+.paragraph{
+    font-size: 15px;
+} 
+
+  .home-main-heading .heading1>h1{
+    
+    font-size: 15px;
+    padding-left: 5px;
+      padding-top: 30px;
+}
+.product-btn{
+    
+    font-size: 18px;
+}
+
+.product-heading-h2{
+    font-size: 30px;
+}
+.Home-image img{
+    height: 200px !important;
+}
+.Home-Pic{
+    margin-bottom: 70px;
+    height: 250px;
+    padding: 50px;
+}
+    
+   
+}
+
+
+
+
+
+
+
+body{
+    background-color: rgb(248, 243, 237);
+}
+
+
+
+
+
+
+

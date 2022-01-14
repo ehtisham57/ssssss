@@ -1,0 +1,32 @@
+#myBtn {
+    display: none;  
+    position: fixed; 
+    bottom: 2px;  
+    right: 15px;  
+    z-index: 99;  
+    border: none;  
+    outline: none;  
+    background-color: rgb(114, 114, 114);  
+    color: white;  
+    cursor: pointer;  
+    padding: 10px;  
+    border-radius:50px;  
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #f75563; 
+  }
+
+
+  @media screen and (max-width:500px) {
+    #myBtn {
+      bottom: 2px;  
+      right: 20px;  
+      z-index: 99;  
+      padding: 5px;  
+      border-radius:50px;
+      border: none;  
+      font-size: 12px; 
+    }
+  }

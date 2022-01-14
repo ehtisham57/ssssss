@@ -1,0 +1,140 @@
+/*===================================== store-main=================================== */
+.main{
+    /* background-color: #111521 !important; */
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(36, 6, 18, 0.8)), url(../images/storemain.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: 50vh;
+    height: 100%;
+    padding: 120px 20px;
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.heading>h1{
+    width: 100%;
+    margin-left:10px  ;
+    color: #f75563;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+/*=================================card================================== */
+
+.store-card{
+    margin-top: 50px;
+    
+}
+.card-product>div{
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: rgb(248, 243, 237);
+}
+.card-product>div>img{
+    width: 100%;
+    transition: all .9s;
+}
+.card-product>div>img:hover{
+    transform: scale(1.2);
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.title>h5{
+    color: #111111;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.title>p{
+    color: #111111;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.title>.button{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: #000000;
+    background: #ff4655;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    transition: all .9s;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.title>.button:hover{
+    background-color: #4d4c4c;
+    color: #ff4655;
+    transform: scale(1.5);
+    border: none;
+}
+/* modal */
+.m-main{
+    background-color: antiquewhite;
+}
+.modal h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #ff4655;
+    text-align: center;
+}
+
+
+
+/* ==================================================media query ==============================*/
+
+
+@media screen and (max-width:990px) {
+    .heading{
+        text-align: center;
+        padding: 10px;
+    }
+    .heading>h1{
+        width: 100%;
+        font-size: 75px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    
+     .heading{
+        text-align: left;
+        padding: 0px;
+    }
+    .heading>h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .modal h1{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+body{
+    background-color: rgb(248, 243, 237);
+}

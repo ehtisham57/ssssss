@@ -1,0 +1,244 @@
+/*===================================== about-main=================================== */
+.about{
+    background-image: url(../images/g1.gif);
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.about-detail{
+    padding: 50px 10px;
+}
+.about-heading{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #dfdfdf;
+}
+.p-Images{
+    padding:0 20px;
+}
+.p-Images img{
+    padding-top: 20px;
+}
+
+
+/*============================= about-content============================== */
+.about-content{
+padding-top: 80px;
+/* background-color: rgb(248, 239, 227); */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.about-content-heading{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.about-content-para{
+    padding: 20px;
+    color:#111111;
+    margin-top: 5px;
+}
+.about-content-para p{
+    font-size: 18px;
+    color:#111111;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+                                    /* about-content-left */
+.about-content-left{
+    padding: 120px 20px;
+}
+.about-content-left h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 90px;
+    color:#111111;
+    text-align: center;
+
+}
+.about-content-left h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: sans-serif;
+    margin-top: 90px;
+    color:#111111;
+    text-align: center;
+}
+
+/* =====================================button============================================= */
+.button{
+
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+.heading-btn{
+    margin-top: 20px;
+}
+.heading-btn h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #111111;
+}
+.icons{
+    margin: 100px 0;
+}
+.icons a{
+    text-decoration: none;
+    padding: 40px;
+}
+.icons a i{
+    color: #ff4655;
+    font-size: 70px;
+    transition: .9s;
+}
+.icons a i:hover{
+   transform: scale(1.5);
+}
+.heading-btn h2{
+    margin: 50px 0;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #ff4655;
+}
+
+/*============================ form============================= */
+
+.form{
+    margin: 60px;
+}
+.form>div{
+    margin: 20px;
+    padding: 20px;
+}
+.form div>label{
+    font-size: 20px;
+    font-weight: 300;
+    font-family:sans-serif;
+}
+.form div>input,.form div>textarea{
+    padding: 20px;
+    border: 1px solid #ff4655;
+}
+
+
+
+
+/* ==================================================media query ==============================*/
+
+
+@media screen and (max-width:990px) {
+    .about-heading{
+        font-size: 60px;
+    }
+    .about-content-heading{
+        font-size: 22px;
+    }
+    .about-content-left{
+        padding: 80px 20px;
+    }
+    .about-content-left h1{
+        margin-top: 50px;
+    }
+    .about-content-left h2{
+        font-size: 28px;
+        margin-top: 50px;
+    }
+   
+    .heading-btn h1{
+        font-size: 30px;
+    }
+    .icons a{
+        padding: 30px;
+    }
+    .icons a i{
+        color: #ff4655;
+        font-size: 55px;
+    }
+    .icons a i:hover{
+        font-size: 70px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    
+    .about-heading{
+        font-size: 28px;
+    }
+    .about-content-heading{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .about-content-para{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .about-content-para p{
+        font-size: 15px;
+    }
+    .about-content-left{
+        padding: 80px 0;
+    }
+    .about-content-left h1{
+        font-size: 30px;
+    }
+    .about-content-left h2{
+        font-size: 20px
+    }
+    .button{
+        text-align: left;
+        margin: 50px 0;
+    }
+    .heading-btn h1{
+        font-size: 22px;
+    }
+    .icons a{
+        padding: 15px;
+    }
+    .icons a i{
+        font-size: 30px;
+    }
+    .form{
+        margin: 60px 0;
+    }
+    .form{
+        margin: 0px;
+    }
+    .form>div{
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(248, 243, 237);
+}
